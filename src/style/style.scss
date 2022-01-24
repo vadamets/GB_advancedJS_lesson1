@@ -1,0 +1,21 @@
+header h1{
+    text-align: center;
+    color: red;
+    
+}
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.goods-item{
+    min-width: 24%;
+    border: 1px solid gold;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: aliceblue;
+}
